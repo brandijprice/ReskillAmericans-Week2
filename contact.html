@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="normalize-css.css" />
+    <link rel="stylesheet" href="main-style.css" />
+  </head>
+  <body>
+    <div class="navBar">
+      <div class="left-navBar">
+        <img src="Bee-Sweets-Bakery.png" alt="Brand Logo" />
+        <div class="navigation">
+          <a href="home.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="#">About Us</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+      <div class="right-navBar">
+        <div class="loginSignup">
+          <button>Login</button>  
+          <button>Register</button>
+        </div>
+      </div>
+    </div>
+    <header class="contact-header">
+      <h1>Contact Form</h1>
+      <p>
+        If you have any questions or concerns, please reach out. We're happy to help.
+      </p>
+    </header>
+    <form action="server.php">
+      <p class="contact-text">Name</p> <input type="text" name="name" value="" required/>
+      <p class="contact-text">Email</p> <input type="email" name="email" value="" required/>
+      <p class="contact-text">Message</p>
+      <textarea name="message" id="message" cols="55" rows="10"></textarea></p>
+      <p class="contact-text">Priority</p>
+      <select name="priority" id="priority">
+        <option value="selectOne" selected>select one</option>
+        <option value="Low">Low</option>
+        <option value="Normal">Normal</option>
+        <option value="High">High</option>
+      </select> <br> <br>
+      <div class="submit-spacing">
+        <input type="submit" class="button">
+      </div>
+    </form>
+    <div class="footerButtons">
+      <a href="#top">
+        <button>Back to Top</button>
+      </a>
+      <a href="contact.html"><button>Contact Us</button> </a>
+    </div>
+  </body>
+  <footer>
+    <p>Copyright &copy; 2022 Brandi Price</p>
+  </footer>
+</html>
