@@ -1,0 +1,19 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textInput {
+    width: 15rem;
+}
+
+.submit {
+    width: 5rem;
+}
+
+textarea {
+    display: flex;
+}
+
+form {
+    font-size: 20px;
+}
